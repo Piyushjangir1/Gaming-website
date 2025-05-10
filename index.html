@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Ultimate Gaming Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">GameZone</div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="games.html">Games</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to GameZone</h1>
+            <p>Immerse yourself in a world of epic adventures and thrilling challenges!</p>
+            <a href="games.html" class="cta-button">Discover Games</a>
+        </div>
+    </section>
+
+    <section class="featured" id="featured">
+        <h2>Featured Games</h2>
+        <div class="game-grid" id="featuredGrid"></div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <div class="form-group">
+                    <input type="text" id="home-name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="home-email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="home-message" placeholder="Your Message" required></textarea>
+                </div>
+                <button class="cta-button" onclick="submitHomeForm()">Send Message</button>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> support@gamezone.com, info@gamezone.com</p>
+                <p><strong>Phone:</strong> +91-9521011489, +91-8901347667</p>
+                <p><strong>Address:</strong> SBIT Boys Hostel, Pallri, Meerut Road, 131023</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Discord</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GameZone</h3>
+                <p>Your ultimate destination for gaming adventures.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="games.html">Games</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Discord</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+        <p>© 2025 GameZone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
